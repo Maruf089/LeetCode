@@ -1,36 +1,29 @@
 class Solution {
 public:
     string replaceWords(vector<string>& dictionary, string sentence) {
-        map<string,int>mp;
-        for(auto it : dictionary)
-            mp[it]++;
-        string s = "", Final = "";
-        vector<string>vc;
-        for(auto it : sentence){
-            if(it==' '){
-                 vc.push_back(s);
-                s = "";
-            }
-            else {
-                s += it;
-            } 
-        }
-        vc.push_back(s);
-        
-        
-        for(int j = 0 ; j < vc.size();j++){
-            s = "";
-            for(int i = 0 ; i < vc[j].size();i++){
-                s += vc[j][i];
-                if(mp[s]){
-                    break;
+        set<string> st;
+        string word="",ans="";
+        sentence += ' ';
+
+        for(auto i: dictionary) 
+            st.insert(i);
+
+        for(auto i: sentence){
+            if(i==' '){
+                if(ans.size()>0) ans += ' ';
+
+                string temp = "";
+                for(auto j: word){
+                    temp += j;
+                    if(st.count(temp)) {
+                        break;
+                    }
                 }
-            }
-            if(j== vc.size()-1)
-            Final += s;
-            else Final += (s + " ");
+                ans += temp;
+                word = "";
+            } else word += i;
         }
-        return Final;
-        
+
+        return ans;
     }
 };
