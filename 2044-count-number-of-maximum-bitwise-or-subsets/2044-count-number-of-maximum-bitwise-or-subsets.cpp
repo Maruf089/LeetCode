@@ -1,25 +1,32 @@
 class Solution {
 public:
     int countMaxOrSubsets(vector<int>& nums) {
-        int n = nums.size();
-        int m = 0, c = 0;
-
-        for (int x : nums) {
-            m |= x;
+        // Calculate the maximum possible OR value
+        int maxOrValue = 0;
+        for (int num : nums) {
+            maxOrValue |= num;
         }
 
-        int t = 1 << n;
-        for (int mask = 1; mask < t; ++mask) {
-            int o = 0;
-            for (int i = 0; i < n; ++i) {
-                if (mask & (1 << i)) {
-                    o |= nums[i];
+        int totalSubsets = 1 << nums.size();  // 2^n subsets
+        int subsetsWithMaxOr = 0;
+
+        // Iterate through all possible subsets
+        for (int subsetMask = 0; subsetMask < totalSubsets; subsetMask++) {
+            int currentOrValue = 0;
+
+            // Calculate OR value for the current subset
+            for (int i = 0; i < nums.size(); i++) {
+                if (((subsetMask >> i) & 1) == 1) {
+                    currentOrValue |= nums[i];
                 }
             }
-            if (o == m) {
-                ++c;
+
+            // If current subset's OR equals maxOrValue, increment count
+            if (currentOrValue == maxOrValue) {
+                subsetsWithMaxOr++;
             }
         }
-        return c;
+
+        return subsetsWithMaxOr;
     }
 };
