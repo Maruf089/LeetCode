@@ -32,4 +32,8 @@
 |  |
 | ------- |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Maruf089/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
