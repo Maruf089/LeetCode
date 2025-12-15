@@ -12,6 +12,7 @@
 |  |
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Maruf089/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Two Pointers
 |  |
 | ------- |
@@ -20,4 +21,12 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0206-reverse-linked-list) |
+## Array
+|  |
+| ------- |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 <!---LeetCode Topics End-->
