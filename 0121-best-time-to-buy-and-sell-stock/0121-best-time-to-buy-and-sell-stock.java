@@ -1,21 +1,11 @@
 class Solution {
-    public int maxProfit(int[] prices) {
-        int till_Max[] = new int[prices.length + 9];
-        for(int i = 0; i < till_Max.length; i++) {
-            till_Max[i] = 0;
-        } 
-
-        till_Max[prices.length] = prices[prices.length-1];
-        int ans = 0;
-        for(int i=prices.length-1;i>=0;i--)
-        {
-            till_Max[i] = Math.max(till_Max[i+1],prices[i]);
+    public int maxProfit(int[] p) {
+        int ans = 0 ;
+        int now_min = p[0];
+        for(int i=1; i< p.length ; i++){
+            ans = Math.max(ans , p[i] - now_min);
+            now_min = Math.min(now_min , p[i]);
         }
-        for(int i=prices.length-1;i>=0;i--){
-            ans = Math.max(ans , ( till_Max[i+1] - prices[i]));
-        }
-
-
         return ans;
         
     }
