@@ -27,10 +27,12 @@
 ## Array
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Maruf089/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Maruf089/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Database
 |  |
