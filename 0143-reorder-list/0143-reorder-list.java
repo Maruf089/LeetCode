@@ -33,7 +33,7 @@ class Solution {
         curr.next = null;
     }
 
-    public void reorderList(ListNode head) {
+    public void reorderListWithStack(ListNode head) {
         if(head==null || head.next==null) 
             return;
 
@@ -67,6 +67,43 @@ class Solution {
             curr.next = back;
             back.next = nextFront;
             curr = nextFront;
+        }
+    }
+
+    public void reorderList(ListNode head) {
+        if(head==null || head.next==null) 
+            return;
+
+        ListNode slow = head , fast = head;
+
+        // find middle, slow will be at middle
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        // 2) reverse 2nd half
+        ListNode curr = slow.next , secondHalf = null , tmp = null;
+        while (curr != null) {
+            tmp = curr.next;
+            curr.next = secondHalf;
+            secondHalf = curr;
+            curr = tmp;
+        }
+
+        // 3) Cut first half to prevent cycles
+        slow.next = null;
+
+        // 4) Merge: first half + popped nodes
+        curr = head;
+        while (secondHalf!=null) {
+            ListNode backNext = secondHalf.next;
+            ListNode nextFront = curr.next;
+
+            curr.next = secondHalf;
+            curr.next.next = nextFront;
+            curr = nextFront;
+            secondHalf = backNext ;
         }
     }
 }
