@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    public void reorderList(ListNode head) {
+    public void reorderListWithDeque(ListNode head) {
         if(head==null || head.next==null) 
             return;
         
@@ -31,5 +31,42 @@ class Solution {
            assignFront = !assignFront;
         }
         curr.next = null;
+    }
+
+    public void reorderList(ListNode head) {
+        if(head==null || head.next==null) 
+            return;
+
+        ListNode slow = head , fast = head;
+
+        // find middle, slow will be at middle
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        // 2) Push second half into stack
+        Stack<ListNode> st = new Stack<>();
+        ListNode curr = slow.next;
+        while (curr != null) {
+            st.push(curr);
+            curr = curr.next;
+        }
+
+        // 3) Cut first half to prevent cycles
+        slow.next = null;
+
+        // 4) Merge: first half + popped nodes
+        curr = head;
+        while (!st.isEmpty()) {
+            ListNode back = st.pop();
+            if (curr == null) break;
+
+            ListNode nextFront = curr.next;
+
+            curr.next = back;
+            back.next = nextFront;
+            curr = nextFront;
+        }
     }
 }
