@@ -19,6 +19,7 @@
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/Maruf089/LeetCode/tree/master/0069-sqrtx) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Maruf089/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Two Pointers
@@ -81,6 +82,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Maruf089/LeetCode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/Maruf089/LeetCode/tree/master/0069-sqrtx) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
