@@ -51,6 +51,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/Maruf089/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Maruf089/LeetCode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Maruf089/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0875-koko-eating-bananas](https://github.com/Maruf089/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Dynamic Programming
 |  |
@@ -90,6 +91,7 @@
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Maruf089/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Maruf089/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0875-koko-eating-bananas](https://github.com/Maruf089/LeetCode/tree/master/0875-koko-eating-bananas) |
 ## Divide and Conquer
 |  |
 | ------- |
