@@ -16,13 +16,19 @@ class Solution {
         ListNode prev = dummy;
         ListNode curr = head;
         while(curr != null){
+
             if(curr.next!=null && curr.val==curr.next.val){
+                // skip all nodes with the same value
                 while(curr.next!=null && curr.val==curr.next.val){
                     curr = curr.next;
                 }
+                // now curr is last duplicate node, skip the entire block
                 prev.next = curr.next;
             }
-            else prev = prev.next;
+            else {
+                // now distinct, move prev
+                prev = prev.next;
+            }
 
             curr = curr.next;
         }
