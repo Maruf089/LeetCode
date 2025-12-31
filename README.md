@@ -44,6 +44,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Maruf089/LeetCode/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Maruf089/LeetCode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -79,6 +80,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Maruf089/LeetCode/tree/master/0001-two-sum) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Maruf089/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 ## Stack
 |  |
