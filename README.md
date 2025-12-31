@@ -25,6 +25,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/Maruf089/LeetCode/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/Maruf089/LeetCode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/Maruf089/LeetCode/tree/master/0143-reorder-list) |
@@ -45,6 +46,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Maruf089/LeetCode/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Maruf089/LeetCode/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
