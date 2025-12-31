@@ -26,6 +26,7 @@
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/Maruf089/LeetCode/tree/master/0061-rotate-list) |
+| [0125-valid-palindrome](https://github.com/Maruf089/LeetCode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/Maruf089/LeetCode/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Maruf089/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Maruf089/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -109,5 +110,6 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Maruf089/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/Maruf089/LeetCode/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
