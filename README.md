@@ -89,6 +89,7 @@
 | [0620-not-boring-movies](https://github.com/Maruf089/LeetCode/tree/master/0620-not-boring-movies) |
 | [1174-immediate-food-delivery-ii](https://github.com/Maruf089/LeetCode/tree/main/1174-immediate-food-delivery-ii/) | Medium |
 | [1193-monthly-transactions-i](https://github.com/Maruf089/LeetCode/tree/main/1193-monthly-transactions-i/) | Medium |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Maruf089/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 ## Greedy
 |  |
 | ------- |
