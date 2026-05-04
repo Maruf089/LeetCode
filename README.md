@@ -82,6 +82,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0175-combine-two-tables](https://github.com/Maruf089/LeetCode/tree/master/0175-combine-two-tables) |
+| [0180-consecutive-numbers](https://github.com/Maruf089/LeetCode/tree/main/0180-consecutive-numbers/) | Medium |
 | [0181-employees-earning-more-than-their-managers](https://github.com/Maruf089/LeetCode/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0511-game-play-analysis-i](https://github.com/Maruf089/LeetCode/tree/main/0511-game-play-analysis-i/) | Easy |
 | [0550-game-play-analysis-iv](https://github.com/Maruf089/LeetCode/tree/master/0550-game-play-analysis-iv) |
