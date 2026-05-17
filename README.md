@@ -95,6 +95,7 @@
 | [1193-monthly-transactions-i](https://github.com/Maruf089/LeetCode/tree/main/1193-monthly-transactions-i/) | Medium |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/Maruf089/LeetCode/tree/main/1204-last-person-to-fit-in-the-bus/) | Medium |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Maruf089/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+| [1757-recyclable-and-low-fat-products](https://github.com/Maruf089/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
 | [1907-count-salary-categories](https://github.com/Maruf089/LeetCode/tree/main/1907-count-salary-categories/) | Medium |
 | [1934-confirmation-rate](https://github.com/Maruf089/LeetCode/tree/main/1934-confirmation-rate/) | Medium |
 | [1978-employees-whose-manager-left-the-company](https://github.com/Maruf089/LeetCode/tree/master/1978-employees-whose-manager-left-the-company) |
