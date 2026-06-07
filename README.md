@@ -18,6 +18,7 @@
 | [0206-reverse-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/Maruf089/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Maruf089/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Math
@@ -25,6 +26,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/Maruf089/LeetCode/tree/main/0002-add-two-numbers/) | Medium |
 | [0069-sqrtx](https://github.com/Maruf089/LeetCode/tree/master/0069-sqrtx) |
+| [0445-add-two-numbers-ii](https://github.com/Maruf089/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Maruf089/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Maruf089/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 ## Two Pointers
@@ -119,6 +121,7 @@
 | ------- |
 | [0143-reorder-list](https://github.com/Maruf089/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Maruf089/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/Maruf089/LeetCode/tree/master/0445-add-two-numbers-ii) |
 ## Binary Search
 |  |
 | ------- |
