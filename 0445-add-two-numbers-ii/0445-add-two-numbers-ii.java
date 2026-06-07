@@ -52,7 +52,7 @@ class Solution {
     }
 
     // FoLlOw Up: Could you solve it without reversing the input list?
-    // Solution : YeS , Using Stack
+    // Solution : YeS , Using Stack ( without final reverse)
 
     public ListNode addTwoNumbers(ListNode r1, ListNode r2) {
 
@@ -67,24 +67,25 @@ class Solution {
             r2 = r2.next;
         }
 
-        ListNode dummyHead = new ListNode(0); 
-        ListNode tail = dummyHead; 
+        ListNode dummyHead = new ListNode(); 
 
         int carry = 0;
-        while(st1.size()>0 || st2.size()>0 || carry!=0){
+        while(st1.size()>0 || st2.size()>0){
             int digit1 = (st1.size() > 0) ? st1.pop() : 0; 
             int digit2 = (st2.size()>0) ? st2.pop() : 0; 
             
             int sum = digit1 + digit2 + carry; 
             int digit = sum % 10; 
             carry = sum / 10; 
+
+            dummyHead.val = digit;
             
-            ListNode newNode = new ListNode(digit); 
-            tail.next = newNode; 
-            tail = tail.next;
+            ListNode newNode = new ListNode(carry); 
+            newNode.next = dummyHead; 
+            dummyHead = newNode;
         }
 
-        return reverseList(dummyHead.next);
+        return carry == 0 ? dummyHead.next : dummyHead;
 
     }
 
