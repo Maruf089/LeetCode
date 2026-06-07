@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode r1, ListNode r2) {
+    public ListNode addTwoNumbersWithReverse(ListNode r1, ListNode r2) {
         ListNode l1 = reverseList(r1);
         ListNode l2 = reverseList(r2);
 
@@ -28,7 +28,7 @@ class Solution {
             
             ListNode newNode = new ListNode(digit); 
             tail.next = newNode; 
-            tail = tail.next; 
+            tail = tail.next;
             
             l1 = (l1 != null) ? l1.next : null; 
             l2 = (l2 != null) ? l2.next : null; 
@@ -50,4 +50,44 @@ class Solution {
         }    
         return prev;
     }
+
+    // FoLlOw Up: Could you solve it without reversing the input list?
+    // Solution : YeS , Using Stack
+
+    public ListNode addTwoNumbers(ListNode r1, ListNode r2) {
+
+        Stack<Integer>st1 = new Stack<>();
+        Stack<Integer>st2 = new Stack<>();
+        while(r1!=null){
+            st1.add(r1.val);
+            r1 = r1.next;
+        }
+        while(r2!=null){
+            st2.add(r2.val);
+            r2 = r2.next;
+        }
+        System.out.println(st1);
+        System.out.println(st2);
+
+        ListNode dummyHead = new ListNode(0); 
+        ListNode tail = dummyHead; 
+
+        int carry = 0;
+        while(st1.size()>0 || st2.size()>0 || carry!=0){
+            int digit1 = (st1.size() > 0) ? st1.pop() : 0; 
+            int digit2 = (st2.size()>0) ? st2.pop() : 0; 
+            
+            int sum = digit1 + digit2 + carry; 
+            int digit = sum % 10; 
+            carry = sum / 10; 
+            
+            ListNode newNode = new ListNode(digit); 
+            tail.next = newNode; 
+            tail = tail.next;
+        }
+
+        return reverseList(dummyHead.next);
+
+    }
+
 }
