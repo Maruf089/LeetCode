@@ -66,8 +66,6 @@ class Solution {
             st2.add(r2.val);
             r2 = r2.next;
         }
-        System.out.println(st1);
-        System.out.println(st2);
 
         ListNode dummyHead = new ListNode(0); 
         ListNode tail = dummyHead; 
