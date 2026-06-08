@@ -36,6 +36,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Maruf089/LeetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/Maruf089/LeetCode/tree/master/0061-rotate-list) |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Maruf089/LeetCode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/Maruf089/LeetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -114,6 +116,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Maruf089/LeetCode/tree/master/0011-container-with-most-water) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Maruf089/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Hash Table
 |  |
