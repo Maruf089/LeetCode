@@ -38,6 +38,7 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Maruf089/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Maruf089/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Maruf089/LeetCode/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/Maruf089/LeetCode/tree/master/0061-rotate-list) |
@@ -69,6 +70,7 @@
 | [0001-two-sum](https://github.com/Maruf089/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Maruf089/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Maruf089/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Maruf089/LeetCode/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -173,4 +175,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Maruf089/LeetCode/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Maruf089/LeetCode/tree/main/0016-3sum-closest/) | Medium |
 <!---LeetCode Topics End-->
