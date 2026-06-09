@@ -42,6 +42,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/Maruf089/LeetCode/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Maruf089/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Maruf089/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0125-valid-palindrome](https://github.com/Maruf089/LeetCode/tree/master/0125-valid-palindrome) |
@@ -75,6 +76,7 @@
 | [0027-remove-element](https://github.com/Maruf089/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Maruf089/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Maruf089/LeetCode/tree/master/0035-search-insert-position) |
+| [0075-sort-colors](https://github.com/Maruf089/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Maruf089/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Maruf089/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -176,4 +178,5 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/Maruf089/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/Maruf089/LeetCode/tree/main/0016-3sum-closest/) | Medium |
+| [0075-sort-colors](https://github.com/Maruf089/LeetCode/tree/main/0075-sort-colors/) | Medium |
 <!---LeetCode Topics End-->
